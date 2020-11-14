@@ -1,0 +1,16 @@
+PODS:
+  - Squid (1.5.0)
+
+DEPENDENCIES:
+  - Squid
+
+SPEC REPOS:
+  trunk:
+    - Squid
+
+SPEC CHECKSUMS:
+  Squid: b25451704be2abaea966114f4e7aeaa63974a9f0
+
+PODFILE CHECKSUM: 2407bf0baf5e3e84f2a06b7cdec3a8b44a85f6e6
+
+COCOAPODS: 1.9.3
