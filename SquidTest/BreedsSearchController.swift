@@ -39,14 +39,6 @@ class BreedsSearchController: UITableViewController {
 
     private var x: AnyCancellable?
 
-    func parseThrows(_ i: String) throws -> Int {
-        if let n = Int(i) {
-            return n
-        } else {
-            throw NSError(domain: "A", code: 3, userInfo: nil)
-        }
-    }
-
     override func viewDidLoad() {
         Squid.Logger.silence(true)
 
